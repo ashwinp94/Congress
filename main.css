@@ -1,0 +1,17 @@
+img {
+    display: block;
+    margin: auto;
+    max-height: 400px;
+    max-width: 400px;S
+}
+
+header {
+    text-align: center;
+    font-size: 3cm;
+    color: red;
+}
+
+.legislation a{
+    flex-direction: column;
+
+}
