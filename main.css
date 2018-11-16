@@ -1,17 +1,41 @@
+header {
+    text-align: center;
+    font-size: 2cm;
+    color: black;
+}
+.basicinfo h1{
+    font-size: 25px;
+}
+.basicinfo div{
+    font-size: 20px;
+}
+.basicinfo{
+    border-style: solid;
+}
+
 img {
     display: block;
     margin: auto;
-    max-height: 400px;
-    max-width: 400px;S
+    max-height: 450px;
+    max-width: 450px;
 }
 
-header {
-    text-align: center;
-    font-size: 3cm;
-    color: red;
+.committees div{
+    display: flex;
+    align-content: column;
+    justify-content: space-between;
+    font-size: 20px;
+    
 }
 
-.legislation a{
+.legislation a {
+    display: flex;
     flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    font-size: 20px;
+}
 
+body{
+    background-color:red;
 }
